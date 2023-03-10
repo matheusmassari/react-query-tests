@@ -22,12 +22,10 @@
     "dayjs": "^1.10.4",
     "eslint": "^7.13.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^6.15.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest-dom": "^3.2.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^6.0.1",
@@ -43,6 +41,7 @@
     "react-dom": "^17.0.2",
     "react-error-overlay": "6.0.9",
     "react-icons": "^4.2.0",
+    "react-query": "^3.39.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -69,5 +68,9 @@
   },
   "jest": {
     "resetMocks": false
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }
